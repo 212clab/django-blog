@@ -54,3 +54,23 @@ djblog/                     # root
 ├── README.md              # 프로젝트 설명
 
 ```
+
+
+
+## more about django
+Django as a Backend Framework
+MTV(model - template - view)
+
+
+-manage db: define model structure(models.py) ORM(object-relational mapping; without SQL)
+-request handling: vies.py, urls.py
+-security: handles CSRF protection, user authentication, data validation
+-business(server) logic
+
+
+## about Migration
+managing database schema changes, updating 'data blueprint(tables)' when you change the structure of your data(models)
+
+-sync models with database: models.py define the structure of database tables
+-track changes: this allows you to update the database w/o losing data or manually writing SQL
+-version control: like git for you db, letting you apply,revert, or track schema changes.
